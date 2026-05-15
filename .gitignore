@@ -1,0 +1,16 @@
+# Node modules de ambos servidores
+node_modules/
+
+# Variables de entorno (credenciales)
+.env
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Uploads (imágenes locales)
+src/uploads/*
+!src/uploads/.gitkeep
